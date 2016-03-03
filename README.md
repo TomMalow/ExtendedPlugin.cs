@@ -5,6 +5,7 @@ Extended Plugin.cs which makes DAXIF# able to synchronize plugins to a CRM solut
 
 Different version of the plugin.cs exist as DAXIF# PluginSync have been extended to incoporate more function in order to replace the use of 
 
+Example of how to use it can be found [here](http://delegateas.github.io/Delegate.Daxif/plugin-reg-setup.html).
 
 ## For DAXIF# v2.2.0.7
 
@@ -26,3 +27,12 @@ Images can also be added to a plugin with the parameters
  - Entity Alias
  - ImageType
  - Attributes
+
+## For DAXIF# v2.1+
+
+Extends plugin to enaable Daxif# to sync plugins with the parameters
+
+ - The full assembly name of the class containing the RegisteredEvents
+ - The Pipeline Stage
+ - The Event Operation
+ - Logical Entity Name (or empty for all)
